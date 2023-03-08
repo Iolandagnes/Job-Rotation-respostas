@@ -75,5 +75,8 @@ já que nesse momento se cruzarão na rodovia'''
 
 '''QUESTÃO 05'''
 
-t1, t2, t3, t4, t5, t6, t7 = 'E', 'S', 'T','Á', 'G', 'I', 'O'
-print(t7, t6, t5, t4, t3, t2, t1)
+'''t1, t2, t3, t4, t5, t6, t7 = 'E', 'S', 'T','Á', 'G', 'I', 'O'
+print(t7, t6, t5, t4, t3, t2, t1)'''
+
+palavra = input("Informe a palavra: ")
+print(palavra[::-1])
